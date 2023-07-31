@@ -15,7 +15,7 @@ const port = 80;
 
 app.use(
   cors({
-    origin: "http://localhost:60350", // Replace with your frontend's origin URL
+    origin: "https://hexcard.hexpeak.co.in", // Replace with your frontend's origin URL
     allowedHeaders: ["Content-Type", "Authorization"], // Add any additional headers you want to allow
   })
 );
